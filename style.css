@@ -1,0 +1,38 @@
+b {
+    margin-left: 5px;
+    color: red;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 5px 5px 1px brown, 2px 2px 2px #000, -4px -4px 0px green, 2px -6px 4px blue;
+    transition: 500ms;
+}
+b:hover{
+    text-shadow: 2px 2px 1px brown, 6px -4px 2px #000, 2px 0px 0px green, -7px -8px 4px blue;
+    transition: 1s;
+}
+p{
+    color: green;
+    font-family: Times New Roman;
+    font-size: 14px;
+    transition: 300ms;
+}
+p:hover{
+    color:black;
+    transition: 500ms;
+}
+body{
+    display: flex;
+}
+div{
+    margin-top: 60px;
+    margin-left: -100px;
+    height: 60px;
+    width: 100px;
+    background:linear-gradient(90deg, #537ad7,#b654ae,#d7365f);
+    border-radius: 20px;
+    transition: 500ms;
+}
+div:hover{
+    background:linear-gradient(90deg, #537ad7,#b654ae,#d7365f);
+    rotate: 90deg;
+}
